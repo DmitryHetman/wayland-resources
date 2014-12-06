@@ -13,9 +13,19 @@ X vs. Wayland
 
 - `X vs. Wayland Architecture <http://wayland.freedesktop.org/docs/html/chap-Wayland-Architecture.html>`_
 
+Architecture
+------------------------------
+
 .. image:: images/x-architecture.png
 
 .. image:: images/wayland-architecture.png
+
+Input Stack
+------------------------------
+
+.. image:: images/x-input-stack.png
+
+.. image:: images/wayland-input-stack.png
 
 Install
 ========================================
