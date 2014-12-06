@@ -5,6 +5,17 @@ Wayland Resources
 - `Wayland Website <http://wayland.freedesktop.org/>`_
 - `Wayland Documentation <http://wayland.freedesktop.org/docs/html/index.html>`_
 - `Wayland - ArchWiki <https://wiki.archlinux.org/index.php/wayland>`_
+- `Unofficial Wayland Stuff <http://www.chaosreigns.com/wayland/>`_
+- `Wayland - Wikipedia <http://en.wikipedia.org/wiki/Wayland_(display_server_protocol)>`_
+
+X vs. Wayland
+========================================
+
+- `X vs. Wayland Architecture <http://wayland.freedesktop.org/docs/html/chap-Wayland-Architecture.html>`_
+
+.. image:: images/x-architecture.png
+
+.. image:: images/wayland-architecture.png
 
 Install
 ========================================
@@ -168,3 +179,30 @@ Zoom in
 
 .. image:: images/zoom-in.png
     :alt: zoom in
+
+Configuration
+------------------------------
+
+``man weston.ini``
+
+
+libinput
+========================================
+
+translates evdev events into Wayland events
+
+- `Consolidating the input stacks with libinput <http://www.x.org/wiki/Events/XDC2014/XDC2014HuttererLibInput/xdc-2014.html>`_
+
+pixman
+========================================
+
+- `pixman website <http://www.pixman.org/>`_
+
+a Software (CPU) renderer, already used by cairo and Xorg
+
+Xweston
+=============================================================
+
+run Xwayland like an ordinary X server using weston
+
+- https://bbs.archlinux.org/viewtopic.php?id=185297
