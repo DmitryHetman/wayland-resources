@@ -7,11 +7,14 @@ Wayland Resources
 - `Wayland - ArchWiki <https://wiki.archlinux.org/index.php/wayland>`_
 - `Unofficial Wayland Stuff <http://www.chaosreigns.com/wayland/>`_
 - `Wayland - Wikipedia <http://en.wikipedia.org/wiki/Wayland_(display_server_protocol)>`_
+- `Xplain - Explaining X11 for the rest of us <http://magcius.github.io/xplain/article/>`_
 
 X vs. Wayland
 ========================================
 
 - `X vs. Wayland Architecture <http://wayland.freedesktop.org/docs/html/chap-Wayland-Architecture.html>`_
+
+Wayland it is a protocol for window managers to become display servers.
 
 Architecture
 ------------------------------
@@ -52,6 +55,8 @@ As Wayland is only a library, it is useless on its own. To replace X Server, you
 
 Install Weston
 ------------------------------
+
+- `wayland/weston - The Weston Wayland Compositor <http://cgit.freedesktop.org/wayland/weston/>`_
 
 .. code-block:: sh
 
